@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(4, 4, 88);
+    height: 100px;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.logo-image {
+    width: 70px;
+    height: 70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.teks-logo {
+    padding-top: 12px;
+}
+.teks-logo p{
+   margin-top: -15px;
+}
+.register-button {
+   padding: 5px 12px;
+   background-color: rgb(41, 41, 164);
+   border: none;
+   border-radius: 4px;
+   color: whitesmoke;
+}
+.register-button a {
+    color: white;
+    text-decoration: none;
+}
+.login-button {
+    padding: 5px 12px;
+    background-color: rgb(16, 255, 24);
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+ }
+ .login-button a {
+     color: white;
+     text-decoration: none;
+ }
+#welcome-register {
+    font-family: "Poppins",sans-serif;
+    background-image: url('Polinema.png');
+    background-attachment: fixed;
+    height: 100vh;
+}
+.teks-welcome {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.teks-welcome h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+.teks-welcome h3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.teks-welcome button {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: rgb(4, 4, 169);
+    border: none;
+    border-radius: 5px;
+}
+.teks-welcome button:hover {
+    background-color: rgb(16, 255, 24);
+}
+.teks-welcome button a {
+    color: white;
+    text-decoration: none;
+}
+#form-section {
+    padding-top: 60px;
+    background-image: url('bg-image.png');
+    height: 109vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+#form-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    height: fit-content;
+    padding: 50px 60px;
+    margin-top: 5px;
+}
+form {
+    backdrop-filter:blur(10px) ;
+    border-radius: 10px;
+    display: grid;
+    padding: 30px 100px 60px 100px;
+    transition: 1s;
+}
+form:hover {
+    box-shadow:  0px 2px 48px 7px #fff;
+    transition: 1s;
+}
+input {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-bottom: 10px;
+}
+form p {
+    color: whitesmoke;
+}
+input:focus {
+    outline: none;
+    color: white;
+   text-shadow:  -6px 4px 6px #fff
+    -4px 4px 6px #fff,
+    -3px 7px 6px #fff,
+    -2px 4px 6px #fff,
+    -2px 4px 6px #fff,
+    -5px 6px 6px #fff,
+    -6px 4px 6px #fff; 
+    background-color: transparent;
+    filter: drop-shadow(0px -4px 3px #fff);
+}
+form button {
+    margin-top: 40px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 0px;
+    color: white;
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+form button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    font-weight: bold;
+}
+form a {
+    color: white;
+}
+input::placeholder {
+    color: rgb(132, 131, 131);
+    opacity: 0.3;
+}

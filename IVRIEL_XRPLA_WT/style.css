@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(4, 4, 88);
+    height: 100px;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+.logo-image {
+    width: 70px;
+    height: 70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.teks-logo {
+    padding-top: 12px;
+}
+.teks-logo p{
+   margin-top: -15px;
+}
+.register-button {
+   padding: 5px 12px;
+   background-color: rgb(41, 41, 164);
+   border: none;
+   border-radius: 4px;
+   color: whitesmoke;
+}
+.register-button a {
+    color: white;
+    text-decoration: none;
+}
+.login-button {
+    padding: 5px 12px;
+    background-color: rgb(16, 255, 24);
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+ }
+ .login-button a {
+     color: white;
+     text-decoration: none;
+ }
+ .carousel-image {
+    width: 100vw;
+    height: 109vh;
+}
+.carousel-caption {
+    top: 0;
+    left: 0;
+}
+.carousel-caption h1 {
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+    font-weight: bold;
+    font-size: 70px;
+}
+.carousel-caption p {
+    text-align: center;
+    font-size: 30px;
+}
+.carousel-caption a {
+    color: white;
+    text-decoration: none;
+}
+.carousel-caption button {
+    border: none;
+    padding: 12px 30px;
+    color: white;
+    background-color: rgb(4, 4, 88);
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.carousel-caption button:hover {
+    cursor: pointer;
+    color: white;
+    letter-spacing: 5px;
+    transition: 0.3s;
+    background-color: transparent;
+    background-color: rgb(105, 105, 247);
+}
+#informasi-lengkap {
+    display: flex;
+    padding: 50px 100px 100px 100px;
+    gap: 100px;
+}
+.info-text {
+    padding-top: 30px;
+}
+.info-text h3  {
+    color: rgba(0, 0, 131, 0.719);
+    margin-bottom: 20px;
+}
+.info-text button {
+    padding: 6px 30px; 
+    background-color: rgb(4, 4, 88);
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+.info-text button a {
+    color: white;
+    text-decoration: none;
+}
+.img-polinema {
+    width: 400px;
+    height: 250px;
+}
+.image-logo {
+   margin-top: -60px;
+}
+.logo-kampus {
+    width: 300px;
+    height: 250px;
+}
+#logo-explain {
+    display: flex;
+    padding: 100px 100px 30px 100px;
+    gap: 210px;
+    background-color: rgb(105, 105, 247);
+}
+.konten {
+    color: white;
+}
+.konten button {
+    padding: 6px 30px; 
+    background-color: rgb(4, 4, 88);
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+.konten button a {
+    color: white;
+    text-decoration: none;
+}
+#bidang-studi {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.jurusan {
+    text-align: center;
+    color: rgb(4, 4, 88);
+    margin-top: 80px;
+}
+.rekayasa {
+    margin-top: 100px;
+}
+.inf {
+    text-align: center;
+    color: rgb(4, 4, 88);
+    margin-top: 40px;
+}
+.regist {
+    padding: 6px 30px; 
+    background-color: rgb(95, 95, 255);
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+    color: white;
+}
+.regist a {
+    color: white;
+    text-decoration: none;
+}
+.regist2 a {
+    color: white;
+    text-decoration: none;
+}
+.regist3 a {
+    color: white;
+    text-decoration: none;
+}
+.regist2 {
+    padding: 6px 30px; 
+    background-color: rgb(95, 95, 255);
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+    color: white;
+    margin-left: 35px;
+}
+.regist3 {
+    padding: 6px 30px; 
+    background-color: rgb(95, 95, 255);
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+    color: white;
+    margin-left: 30px;
+}
+#form-section {
+    margin-top: 160px;
+    padding-top: 60px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('Polinema.png');
+    height: 155vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+#form-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    height: fit-content;
+    padding: 50px 60px;
+    margin-top: 5px;
+}
+form {
+    backdrop-filter:blur(10px) ;
+    border-radius: 10px;
+    display: grid;
+    padding: 30px 100px 60px 100px;
+    transition: 1s;
+}
+form:hover {
+    transition: 1s;
+    box-shadow:  0px 2px 48px 7px #fff;
+}
+input {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+form p {
+    color: whitesmoke;
+    margin-top: 30px;
+}
+input:focus {
+    outline: none;
+    color: white;
+   text-shadow:  -6px 4px 6px #fff
+    -4px 4px 6px #fff,
+    -3px 7px 6px #fff,
+    -2px 4px 6px #fff,
+    -2px 4px 6px #fff,
+    -5px 6px 6px #fff,
+    -6px 4px 6px #fff; 
+    background-color: transparent;
+    filter: drop-shadow(0px -4px 3px #fff);
+}
+form button {
+    margin-top: 40px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 0px;
+    color: white;
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+form button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    font-weight: bold;
+}
+form a {
+    color: white;
+}
+.now {
+    text-align: center;
+    color: rgb(4, 4, 88);
+}
+input::placeholder {
+    color: rgb(132, 131, 131);
+    opacity: 0.3;
+}
